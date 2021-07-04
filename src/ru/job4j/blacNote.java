@@ -2,7 +2,8 @@ package ru.job4j;
 
 import java.util.Scanner;
 
-public class blacNote {
+@SuppressWarnings("checkstyle:TypeName")
+public class BlacNote {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("enter first number");
