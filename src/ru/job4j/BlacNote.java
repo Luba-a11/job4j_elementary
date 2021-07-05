@@ -2,9 +2,7 @@ package ru.job4j;
 
 import java.util.Scanner;
 
-
-@SuppressWarnings("checkstyle:EmptyLineSeparator")
-public class BlacNote {
+class BlackNote {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("enter first number");
