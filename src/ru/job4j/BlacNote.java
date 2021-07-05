@@ -2,7 +2,8 @@ package ru.job4j;
 
 import java.util.Scanner;
 
-@SuppressWarnings("checkstyle:TypeName")
+
+@SuppressWarnings("checkstyle:EmptyLineSeparator")
 public class BlacNote {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
