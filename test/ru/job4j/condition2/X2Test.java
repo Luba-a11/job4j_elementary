@@ -18,7 +18,7 @@ public class X2Test {
         int out = X2.calc(a, b, c, x);
         Assert.assertEquals(expected, out);
     }
-    
+
     @Test
     public void whenA0B1C1X1Then2() {
         int a = 0;
