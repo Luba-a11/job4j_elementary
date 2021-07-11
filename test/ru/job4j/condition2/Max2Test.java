@@ -12,8 +12,8 @@ public class Max2Test {
     public void when1max() {
         int left = 156;
         int right = 5;
-        String rsl = Max2.max(left, right);
-        String expected = "Левое число больше правого";
+        int rsl = Max2.max(left, right);
+        int expected = 156;
         Assert.assertEquals(rsl, expected);
     }
 
@@ -21,8 +21,8 @@ public class Max2Test {
     public void when2max() {
         int left = 1;
         int right = 65465;
-        String rsl = Max2.max(left, right);
-        String expected = "Правое число больше левого";
+        int rsl = Max2.max(left, right);
+        int expected = 65465;
         Assert.assertEquals(rsl, expected);
     }
 }
