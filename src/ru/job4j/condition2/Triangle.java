@@ -2,11 +2,7 @@ package ru.job4j.condition2;
 
 public class Triangle {
     public static boolean exist(double ab, double ac, double bc) {
-      /*  boolean ex1 = ab + ac > bc;
-        boolean ex2 = ac + bc > ab;
-        boolean ex3 = ab + bc > ac;
-        return ex1 && ex2 && ex3;*/
-        return ab + ac > bc && ac + bc > ab && ab + bc > ac;
+             return ab + ac > bc && ac + bc > ab && ab + bc > ac;
     }
 
     public static void main(String[] args) {
