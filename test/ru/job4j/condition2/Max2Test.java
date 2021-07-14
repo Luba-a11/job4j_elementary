@@ -25,4 +25,13 @@ public class Max2Test {
         int expected = 65465;
         Assert.assertEquals(rsl, expected);
     }
+
+    @Test
+    public void when2equal() {
+        int left = 2;
+        int right = 2;
+        int rsl = Max2.max(left, right);
+        int expected = 2;
+        Assert.assertEquals(rsl, expected);
+    }
 }
