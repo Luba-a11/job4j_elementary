@@ -10,7 +10,7 @@ public class SqArea2 {
 
     public static void main(String[] args) {
         double squareResult = SqArea2.square(6, 2);
-        System.out.println("Площадь прямоугольника с периметром 6 и к = 2 составляет" + squareResult);
+        System.out.println("Площадь прямоугольника с периметром 6 и к = 2 составляет " + squareResult);
 
     }
 
