@@ -21,6 +21,6 @@ public class EndsWith2Test {
         char[] word = {'H', 'e', 'l', 'l', 'o'};
         char[] post = {'l', 'y'};
         boolean result = EndsWith2.endsWit(word, post);
-        Assert.assertTrue(result);
+        Assert.assertFalse(result);
     }
 }
