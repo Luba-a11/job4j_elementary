@@ -3,20 +3,13 @@ package ru.job4j.array2;
 public class Check {
     public static boolean mono(boolean[] data) {
         boolean rslt = true;
-        for (int i = 0; i < data.length; i++) {
-            if (data[i] != true){
-                return true;
+        for (int i = 0; i < data.length - 1; i++) {
+            if (data[i] != data[i + 1]) {
+                rslt = false;
+                break;
 
             }
-            if (data[i] != false){
-                return true;
-            }
-            if (data[i] != data[i + 1]){
-                return true;
-            }
-
         }
         return rslt;
     }
-
 }
