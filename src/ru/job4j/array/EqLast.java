@@ -9,7 +9,7 @@ public class EqLast {
 
     public static void main(String[] args) {
         int[] left = new int[] {4, 5, 8, 5};
-        int[] right = new int[] {1, 9, 5};
+        int[] right = new int[] {1, 9, 15};
         boolean result = EqLast.check(left, right);
         System.out.println(result);
     }

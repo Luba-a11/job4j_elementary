@@ -21,7 +21,7 @@ public class EqLast2Test {
         int[] left = {1, 2, 3, 4};
         int[] right = {5, 6, 7, 89};
         boolean result = EqLast2.check(left, right);
-        Assert.assertTrue(result);
+        Assert.assertFalse(result);
     }
 
 }
