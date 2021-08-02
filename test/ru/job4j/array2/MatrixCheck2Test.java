@@ -18,4 +18,16 @@ public class MatrixCheck2Test {
         boolean rslt = MatrixCheck2.monoHorizontal(board, row);
         Assert.assertTrue(rslt);
     }
+
+    @Test
+    public void whenHasFalse() {
+        char[][] board = {
+                {' ', ' ', ' '},
+                {'X', ' ', 'X'},
+                {' ', ' ', ' '},
+        };
+        int row = 1;
+        boolean rslt = MatrixCheck2.monoHorizontal(board, row);
+        Assert.assertFalse(rslt);
+    }
 }
