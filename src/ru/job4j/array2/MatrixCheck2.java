@@ -30,20 +30,20 @@ public class MatrixCheck2 {
     public static char[] extractDiagonal(char[][] board) {
         char[] rslt = new char[board.length];
         for (int i = 0; i < board.length; i++) {
-            for (int j = 0; j < board.length; j++) {
-                if (i == j) {
-                    System.out.print(board[i][j]);
-                }
+           rslt[i] = board[i][i];
 
+        }
+        return rslt;
 
-            }
-
-        } return rslt;
     }
 
     public static boolean isWin(char[][] board) {
         boolean result = false;
         for (int i = 0; i < board.length; i++) {
+            if (board[i][i] == 'X') {
+                result = true;
+                break;
+            }
 
         }
         return result;
