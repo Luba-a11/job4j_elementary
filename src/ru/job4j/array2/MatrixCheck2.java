@@ -40,6 +40,15 @@ public class MatrixCheck2 {
 
         } return rslt;
     }
+
+    public static boolean isWin(char[][] board) {
+        boolean result = false;
+        for (int i = 0; i < board.length; i++) {
+
+        }
+        return result;
+    }
+
 }
 
 

@@ -5,7 +5,7 @@ public class SortSelected2 {
         for (int i = 0; i < data.length; i++) {
             int min = MinDiapason2.findMin(data, i, data.length - 1);
             int indexOfmin = FindLoop2.indexOf(data, min, i, data.length - 1);
-            int[] temp = SwitchArray2.swap(data, indexOfmin, i);
+            SwitchArray2.swap(data, indexOfmin, i);
 
         }
         return data;
