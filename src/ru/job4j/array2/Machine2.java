@@ -13,7 +13,7 @@ public class Machine2 {
         for (int i = 0; i < coins.length; i++) {
             while (change > 0) {
                 change = change - coins[i];
-                size++;
+                rsl[size++] = coins[i];
             }
         }
         return Arrays.copyOf(rsl, size);
