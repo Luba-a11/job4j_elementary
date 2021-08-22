@@ -56,7 +56,7 @@ public class Merge<rsl> {
 
         merge(left, right);
 
-        for(int i = 0; i < rsl.length; i++) {
+        for (int i = 0; i < rsl.length; i++) {
             System.out.println(rsl[i] + " ");
         }
 

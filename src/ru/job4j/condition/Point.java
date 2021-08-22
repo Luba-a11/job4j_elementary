@@ -13,12 +13,12 @@ public class Point {
         return dist;
 
     }
-    public static void main(String[] args){
-      double result = Point.distance(0, 0,2,0);
+
+    public static void main(String[] args) {
+      double result = Point.distance(0,  0, 2, 0);
       System.out.println("The distance between two points A (0,0) and B (2,0) is " + result);
 
     }
-
 
 }
 

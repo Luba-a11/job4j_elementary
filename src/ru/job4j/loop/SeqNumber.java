@@ -20,7 +20,6 @@ public class SeqNumber {
         calc(6);
         calc(5);
 
-
     }
 
 }

@@ -22,13 +22,12 @@ public class Defragment {
         return array;
     }
 
-
-        public static void main (String[]args){
+        public static void main(String[]args) {
             String[] array = {"I", null, "wanna", null, "be", null, "compressed"};
             String[] compressed = compress(array);
             System.out.println();
             for (int i = 0; i < array.length; i++) {
-                System.out.println(array[i] + " ");//не работает
+                System.out.println(array[i] + " "); //не работает
 
             }
         }

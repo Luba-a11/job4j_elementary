@@ -15,6 +15,7 @@ public class DummyBotTest {
         Assert.assertEquals(rsl, exp);
 
     }
+
     @Test
     public void whenBye() {
         String in = "Пока";
@@ -23,6 +24,7 @@ public class DummyBotTest {
         Assert.assertEquals(rsl, exp);
 
     }
+
     @Test
     public void whenUnknow() {
         String in = "2*2";
