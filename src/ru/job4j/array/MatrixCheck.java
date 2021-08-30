@@ -9,8 +9,9 @@ public class MatrixCheck {
                 result = false;
                 break;
             }
-            return result;
+
         }
+        return result;
     }
 
     public static boolean monoVertical(char[][] board, int column) {
