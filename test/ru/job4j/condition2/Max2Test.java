@@ -42,7 +42,7 @@ public class Max2Test {
         int first = 156;
         int second = 65656495;
         int third = 5465;
-        int rsl = Max2.max3(first, second, third);
+        int rsl = Max2.max(first, second, third);
         int expected = 65656495;
         Assert.assertEquals(rsl, expected);
 
@@ -54,7 +54,7 @@ public class Max2Test {
         int second = 6565;
         int third = 5465;
         int forth = 213132131;
-        int rsl = Max2.max4(first, second, third, forth);
+        int rsl = Max2.max(first, second, third, forth);
         int expected = 213132131;
         Assert.assertEquals(rsl, expected);
 

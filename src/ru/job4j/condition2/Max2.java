@@ -8,12 +8,12 @@ public class Max2 {
     }
 
     //создаем 2-ый метод для нахождения мах из 3-х
-    public static int max3(int first, int second, int third) {
+    public static int max(int first, int second, int third) {
        return max(first, max(second, third));
     }
 
     //создаем 3-ый метод для нахождения мах из 4-х
-    public static int max4(int first, int second, int third, int fourth) {
+    public static int max(int first, int second, int third, int fourth) {
        return max(max(first, second), max(third, fourth));
 
     }
@@ -21,9 +21,9 @@ public class Max2 {
     public static void main(String[] args) {
         int msg1 = Max2.max(5, 22);
         System.out.println(msg1);
-        int msg3 = Max2.max3(97, 51, 222);
+        int msg3 = Max2.max(97, 51, 222);
         System.out.println(msg3);
-        int msg4 = Max2.max4(5, 22, 343, 35);
+        int msg4 = Max2.max(5, 22, 343, 35);
         System.out.println(msg4);
     }
 
